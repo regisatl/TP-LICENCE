@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: blanchedalmond;
+}
+
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+   
+}
+
+.menuDroit, .menuGauche, .menuBas{
+    margin-bottom: 20px;
+}
+
+.menuDroit{
+    width: 20%;
+    height: 1000px;
+    background: white;
+    border: 2px solid;
+    font-size: 15px;
+    position: relative;
+
+    
+    
+}
+
+.menuDroit, ul, ol, a{
+    color: black;
+}
+
+.menuGauche{
+    width: 75%;
+    height: 250px;
+    background: white;
+    border: 2px solid;
+    font-size: 15px;
+    margin-left: 300px;
+  
+    
+    
+    
+    
+}
+
+h2 ,p{
+    margin-right: 100px;
+}
+
+.menuBas{
+    width: 70%;
+    height: 250px;
+    background: white;
+
+}

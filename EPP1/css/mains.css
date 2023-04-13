@@ -1,0 +1,75 @@
+*, ::before ::after{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-family: sans-serif;
+	background: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.formulaire{
+	width: 70%;
+	height: 450px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.9);
+	margin: 50px 20px 50px 200px;
+	flex-wrap: wrap;
+	display: flex;
+    padding: 10px, 20px;
+	margin-top: 50px;
+}
+.container{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.container table, th{
+	text-align: center;
+}
+
+.formulaire .table select{
+	width: 100%;
+	border-radius: 5px;
+    margin-top: 10px;
+    border: 2px solid blue;
+    padding: 10px 20px 10px 20px;	
+}
+.formulaire .table input{
+	width: 80%;
+	border-radius: 5px;
+    margin-top: 10px;
+    border: 2px solid blue;
+    padding: 10px 20px 10px 20px;
+}
+
+.formulaire .pied-formulaire button{
+	margin-top: 10px;
+	background: blue;
+	color: white;
+	font-size: 15px;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 0.5s;
+}
+.formulaire .pied-formulaire button:hover{
+	transform: scale(1.05);
+
+}
+
+th{
+	background: grey;
+}
+
+.formulaire .txt1{
+	
+	color: green;
+	margin-bottom: 20px;
+}

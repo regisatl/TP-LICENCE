@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>incris</title>
+</head>
+<body>
+    <div class="menuBas">
+        <form action="connexion.php" method="POST">
+             <fieldset>
+                 <legend>
+                     <h2>Vos coordonnées</h2>
+                 </legend>
+         <table>
+                 <tr>
+                     <td>Nom:</td>
+                        <td><input type="text" name="nom" value=""></td>
+                    </tr>
+                    <tr>
+                     <td>Prénom:</td>
+                     <td><input type="text" name="prenom" value=""></td>
+                 </tr>
+                 <tr>
+                     <td>Date de naissance:</td>
+                     <td><input type="text" name="datnais" value=""></td>
+                    </tr>
+                    <tr>
+                     <td>Ville:</td>
+                     <td><input type="text" name="ville" value=""></td>
+                 </tr>
+                 <tr>
+                     <td>Sexe:</td>
+                     <td><input type="text" name="sexe" value=""></td>
+                 </tr>
+                 <tr>
+                    <td>Filière:</td>
+                    <td>
+                        <select name="filiere">
+                            <option value="AGE">AGE</option>
+                            <option value="AGRO">AGRO</option>
+                            <option value="RIT">RIT</option>
+                            <option value="SIL">SIL</option>
+                        </select>
+                    </td>
+                </tr>
+                 <tr>
+                     <td><input type="reset" name="" value="Effacer"></td>
+                     <td><input type="submit" name="send" value="Enregisgtrer"></td>
+                 </tr>
+             </table>
+             </fieldset> 
+        </form>
+     </div>
+</body>
+</html>

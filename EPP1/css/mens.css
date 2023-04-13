@@ -1,0 +1,45 @@
+	*, ::before ::after{
+		box-sizing: border-box;
+	}
+
+	body{
+		margin: 0;
+		padding: 0;
+		font-family: 'Times New Roman', Times, serif;
+		background: blanchedalmond;
+	}
+
+	.container .titre{
+		font-size: 30px;
+	}
+
+	.container{
+		margin: 50px 50px 100px 300px;
+		width: 50%;
+		height: 400px;
+		display: block;
+		flex-direction: row;
+		background: white;
+		border-radius: 10px;
+		box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.9);
+		font-size: 30px;
+		font-weight: 10px;
+		padding: 20px 30px 20px 30px;
+	}
+
+	.container .corps .group a{
+		text-decoration: none;
+		width: 100%;
+		background: blue;
+		color: white;
+		font-size: 15px;
+		border: none;
+		padding: 10px 30px;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: transform 0.5s;
+	}
+	a:hover{
+		transform: scale(1.05);
+	
+	}

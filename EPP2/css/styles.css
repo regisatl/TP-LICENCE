@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #FFEEEE;
+}
+.formulaire{
+    width: 50%;
+    height: 400px;
+    margin: 50px 10px 20px 350px;
+    background: white; 
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    margin: 10px 10px 10px 10px;
+}
+input {
+    width: 80%;
+    margin-left: 180px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding: 10px 20px;
+}
+
+select{
+    width: 90%;
+    margin-left: 180px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding: 10px 20px;
+}
+.tableau{
+    margin: 20px 10px 20px 10px;
+}
+
+tr{
+    padding-top: 50px;
+}
+
+td .btn{
+    margin-left: 180px;
+}
+
+button{
+    margin-top: 30px;
+    background: blue;
+    padding: 20px 25px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.btn{
+    margin-top: 30px;
+    background: red;
+    padding: 20px 25px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}

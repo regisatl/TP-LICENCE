@@ -1,0 +1,95 @@
+*, ::before ::after{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: times new roman, sans-serif;	
+	background: blanchedalmond;
+}
+
+.formulaire{
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	background: white;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.9);
+}
+
+.formulaire fieldset{
+	padding: 20px 200px 20px 50px;
+	border-radius: 5px;
+	border: 2px solid #747cdf;
+}
+
+.formulaire h1{
+	font-size: 20px;
+}
+.formulaire .corps-formulaire{
+	display: block;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+.formulaire .corps-formulaire .form-group{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+.formulaire .corps-formulaire .form-group input{
+	margin-top: 5px;
+	padding: 10px 5px 10px 20px;
+	border: 2px solid #747cdf;
+	border-radius: 10px;
+	outline: none;
+}
+
+.formulaire .pied-formulaire button{
+	margin-top: 10px;
+	background: #747cdf;
+	color: white;
+	font-size: 15px;
+	border: none;
+	padding: 20px 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 0.5s;
+}
+.formulaire .pied-formulaire button:hover{
+	transform: scale(1.05);
+
+}
+
+.container{
+	margin-left: 50px;
+	width: 80%;
+	background: white;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.9);
+	margin-bottom: 100px;
+}
+
+.container table{
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+.container table, th, td{
+    padding: 15px;
+    border: 2px solid;
+    text-align: center;  
+}
+
+th{
+	background: grey;
+}
+
+.formulaire .txt1{
+	color: green;
+	margin-bottom: 30px;
+}
